@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bienvenido</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/empleados.js"></script>
+    </head>
+
+<body>
+    <p align="right"><button style="background-color:darksalmon" id="logout">Regresar al Login</button>
+    </p>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-6 offset-3">
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-6 offset-3">
+                <div class="table">
+<table>
+    <thead>
+        <tr>
+       <th><h1>¿Qué quieres hacer?</h1></th> 
+    </tr>
+    </thead>
+    <tr>
+        <td><button style="background-color: aquamarine;" id="post">Agregar Empleado</button></td>
+        <td><button style="background-color:blueviolet;" id="get">Buscar Empleado</button></td>
+    </tr>
+    <tr>
+        <td><button style="background-color:chartreuse" id="patch">Actualizar Empleado</button></td>
+        <td><button style="background-color:yellow" id="delete">Eliminar Empleado</button></td>
+    </tr>
+</table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
