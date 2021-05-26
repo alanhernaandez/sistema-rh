@@ -18,7 +18,7 @@ function init(){
         var id = document.querySelector("#id").value;
         
         if(id){
-            var url = "http://localhost:3000/empleados/" + id;
+            var url = "https://sistemarh2020.herokuapp.com/empleados/" + id;
             
             axios.delete(url, headers).then((res) => {
                 const code = res.data.code;

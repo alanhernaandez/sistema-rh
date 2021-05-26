@@ -32,7 +32,7 @@ function init(){
         }
 
         if(id){
-            var url = "http://localhost:3000/empleados/" + id;
+            var url = "https://sistemarh2020.herokuapp.com/empleados/" + id;
             
             axios.patch(url, data, headers).then((res) => {
                 const code = res.data.code;

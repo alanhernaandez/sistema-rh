@@ -5,10 +5,9 @@ function login(){
     var correo = document.getElementById('bmail').value;
     var contraseña = document.getElementById('bpassword').value;
 
-    console.log({correo,contraseña});
     axios({
         method: "post",
-        url: "http://localhost:3000/login",
+        url: "https://sistemarh2020.herokuapp.com/login",
         data: {
             correo: correo,
             contraseña: contraseña

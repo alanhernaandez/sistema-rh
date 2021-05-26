@@ -1,7 +1,7 @@
 window.onload = init;
 
 var token = localStorage.getItem("token");
-var url = "http://localhost:3000/empleados";
+var url = "https://sistemarh2020.herokuapp.com/empleados";
 var headers = {
     headers: {
         "Authorization" : "bearer " + token

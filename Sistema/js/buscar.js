@@ -1,6 +1,6 @@
 window.onload = init;
 
-var url = "http://localhost:3000/empleados/";
+var url = "https://sistemarh2020.herokuapp.com/empleados/";
 var token = localStorage.getItem("token");
 
 var headers = {
